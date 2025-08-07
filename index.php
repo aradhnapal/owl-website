@@ -130,7 +130,7 @@ include 'header.php';
 <div class="projects-details-wrap-2 pt-135  ">
     <div class="container chy-container-1">
         <div class="section-title-wrap text-center mb-40">
-            <h5 class="chy-subtitle-1 wow fadeInDown">Our Services</h5>
+            <h5 class="chy-subtitle-1 wow fadeInDown">The Owl’s Suite of Services</h5>
             <!-- <h2 class="chy-title-1 chy-split-in-right chy-split-text">consulting costing</h2> -->
         </div>
         <div class="row g-0 align-items-center">
@@ -627,7 +627,7 @@ include 'header.php';
                     <!-- left-content -->
                     <div class="col-lg-5">
                         <div class="chy-client-1-content chy-slideinright">
-                            <h3 class="chy-heading-1 title chy-split-in-right chy-split-text">our investors</h3>
+                            <h3 class="chy-heading-1 title chy-split-in-right chy-split-text"> Our Trusted Flock</h3>
                             <p class="chy-para-1 disc wow fadeInRight ">Every pleasure is to be welcomed and <br> every
                                 pain avoided.certain circumstances</p>
                         </div>

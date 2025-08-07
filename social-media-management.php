@@ -1,8 +1,7 @@
-
 <?php
 include 'header.php';
 include 'services-list.php';
-$current_service = "SEO & SMM";
+$current_service = "SOCIAL MEDIA MANAGEMENT";
 ?>
 
 <!-- breadcrumb-area-start -->
@@ -14,7 +13,7 @@ $current_service = "SEO & SMM";
                     <h2 class="breadcrumb-title chy-heading-1 chy-split-in-right chy-split-text">Our Services</h2>
                     <div class="breadcrumb-list wow fadeInUp" data-wow-duration="2s">
                         <a href="index.php">Home</a>
-                        <span>SEO & SMM</span>
+                        <span>Social Media Management</span>
                     </div>
                 </div>
             </div>
@@ -31,22 +30,22 @@ $current_service = "SEO & SMM";
             <div class="col-xxl-8 col-xl-8 col-lg-8">
                 <div class="service-details-content mb-50">
                     <div class="service-details-main-img img-cover">
-                        <img src="assets/img/bg/seo.webp" alt="SEO and SMM Campaign">
+                        <img src="assets/img/bg/social-media-management.webp" alt="Social Media Management">
                     </div>
 
-                    <h2 class="chy-heading-1 service-details-title chy-split-in-right chy-split-text">SEO & SMM</h2>
+                    <h2 class="chy-heading-1 service-details-title chy-split-in-right chy-split-text">Social Media Management</h2>
 
                     <p class="chy-para-1 inner-page-disc">
-                        Our SEO and SMM services boost your online presence by optimizing your website for search engines and engaging audiences through strategic social media campaigns. We combine search engine optimization (SEO) techniques with social media marketing (SMM) to drive organic traffic, increase brand visibility, and foster meaningful connections with your target audience. Our data-driven strategies ensure your brand ranks higher on search engines like Google while building a loyal community on platforms like Instagram, Facebook, LinkedIn, and Twitter.
+                        Our Social Media Management services empower your brand to thrive in the digital landscape by creating, curating, and managing engaging content across platforms like Instagram, Facebook, LinkedIn, and Twitter. We focus on building a consistent online presence, fostering audience interaction, and driving brand loyalty through strategic content planning and community engagement. Our tailored approach ensures your social media channels align with your business goals, delivering measurable results in audience growth and engagement.
                     </p>
                     <p class="chy-para-1 inner-page-disc">
-                        From keyword research and on-page optimization to content creation and social media management, we provide end-to-end solutions to enhance your digital footprint. Our team tailors each campaign to your business goals, ensuring measurable results in traffic, engagement, and conversions, whether for B2B or B2C markets.
+                        Our team handles every aspect of social media management, from content creation and scheduling to audience engagement and performance tracking. We use data-driven insights to optimize posts, respond to comments, and adapt strategies to platform algorithms, ensuring your brand remains relevant and impactful in a fast-paced digital world.
                     </p>
 
                     <h2 class="chy-heading-1 chy-split-in-right chy-split-text service-details-subtitle">What We Provide</h2>
 
                     <p class="chy-para-1 inner-page-disc">
-                        Our SEO and SMM services deliver comprehensive solutions, from optimizing your website for search engines to creating engaging social media campaigns. We focus on driving traffic, boosting engagement, and delivering measurable results tailored to your brand’s objectives.
+                        Our Social Media Management services offer comprehensive solutions, including content creation, scheduling, community management, and analytics. We craft strategies that amplify your brand’s voice and connect with your audience, ensuring sustained growth and engagement across all platforms.
                     </p>
 
                     <div class="service-details-feature mb-30 mt-30">
@@ -55,27 +54,27 @@ $current_service = "SEO & SMM";
                                 <div class="icon">
                                     <i class="flaticon-mobile-development"></i>
                                 </div>
-                                <h4 class="chy-heading-1 title">SEO Strategy</h4>
+                                <h4 class="chy-heading-1 title">Content Creation</h4>
                             </div>
-                            <p class="chy-para-1 text">We develop tailored SEO strategies, including keyword research and on-page optimization, to improve your website’s ranking and drive organic traffic.</p>
+                            <p class="chy-para-1 text">We produce high-quality, platform-specific content, including visuals, videos, and captions, to engage your audience and reflect your brand identity.</p>
                         </div>
                         <div class="service-details-feature-item">
                             <div class="heading-wrap">
                                 <div class="icon">
                                     <i class="flaticon-megaphone"></i>
                                 </div>
-                                <h4 class="title chy-heading-1">Social Media Campaigns</h4>
+                                <h4 class="title chy-heading-1">Community Engagement</h4>
                             </div>
-                            <p class="chy-para-1 text">We create and manage engaging social media campaigns to build brand awareness, foster audience interaction, and drive conversions.</p>
+                            <p class="chy-para-1 text">We actively manage interactions, respond to comments, and build relationships with your audience to foster trust and loyalty.</p>
                         </div>
                         <div class="service-details-feature-item">
                             <div class="heading-wrap">
                                 <div class="icon">
                                     <i class="flaticon-web-design-1"></i>
                                 </div>
-                                <h4 class="title chy-heading-1">Content Optimization</h4>
+                                <h4 class="title chy-heading-1">Scheduling & Posting</h4>
                             </div>
-                            <p class="chy-para-1 text">We produce and optimize content for both SEO and social media, ensuring it resonates with audiences and supports your marketing goals.</p>
+                            <p class="chy-para-1 text">We plan and schedule posts to ensure consistent activity, optimizing timing for maximum reach and engagement.</p>
                         </div>
                         <div class="service-details-feature-item">
                             <div class="heading-wrap">
@@ -84,14 +83,14 @@ $current_service = "SEO & SMM";
                                 </div>
                                 <h4 class="title chy-heading-1">Performance Analytics</h4>
                             </div>
-                            <p class="chy-para-1 text">We track and analyze campaign performance, providing detailed reports on traffic, engagement, and ROI to refine strategies.</p>
+                            <p class="chy-para-1 text">We track engagement metrics and provide detailed reports to refine strategies and maximize your social media impact.</p>
                         </div>
                     </div>
 
                     <h2 class="chy-heading-1 chy-split-in-right chy-split-text service-details-subtitle">The Challenge</h2>
 
                     <p class="chy-para-1 inner-page-disc">
-                        Achieving success in SEO and SMM requires navigating complex algorithms, creating engaging content, and staying ahead of digital trends. Challenges include optimizing for ever-changing search engine algorithms, maintaining consistent social media engagement, and measuring ROI. Our team addresses these challenges through strategic planning, continuous optimization, and data-driven insights, ensuring your brand achieves high visibility and meaningful audience connections.
+                        Managing social media effectively requires balancing creative content, consistent posting, and audience engagement while adapting to ever-changing platform algorithms. Challenges include maintaining brand consistency, responding to real-time feedback, and measuring ROI. Our team tackles these by leveraging analytics, crafting compelling content, and maintaining proactive communication to ensure your social media presence thrives.
                     </p>
 
                     <h2 class="chy-heading-1 chy-split-in-right chy-split-text service-details-subtitle">Why Choose Us</h2>
@@ -102,14 +101,14 @@ $current_service = "SEO & SMM";
                             <h2 class="accordion-header" id="heading17">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
                                     <span class="icon-2"><i class="flaticon-arrow"></i></span>
-                                    <span class="title chy-heading-1">What Makes Our SEO & SMM Unique?</span>
+                                    <span class="title chy-heading-1">What does your Social Media Management include?</span>
                                     <span class="icon"><i class="far fa-plus"></i></span>
                                 </button>
                             </h2>
                             <div id="collapse17" class="accordion-collapse collapse show" aria-labelledby="heading17" data-bs-parent="#accordionExample_31">
                                 <div class="accordion-body">
                                     <div class="disc chy-para-1">
-                                        Our SEO and SMM services stand out by combining technical expertise with creative strategies to drive traffic, engagement, and conversions tailored to your brand.
+                                        Our services include content creation, scheduling, community engagement, and performance analytics, tailored to amplify your brand’s presence across platforms.
                                     </div>
                                 </div>
                             </div>
@@ -120,14 +119,14 @@ $current_service = "SEO & SMM";
                             <h2 class="accordion-header" id="heading10">
                                 <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
                                     <span class="icon-2"><i class="flaticon-arrow"></i></span>
-                                    <span class="title chy-heading-1">How Do We Boost Your Search Rankings?</span>
+                                    <span class="title chy-heading-1">How do you ensure consistent brand presence?</span>
                                     <span class="icon"><i class="far fa-plus"></i></span>
                                 </button>
                             </h2>
                             <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample_31">
                                 <div class="accordion-body">
                                     <div class="disc chy-para-1">
-                                        We use advanced SEO techniques, including keyword optimization, link building, and technical audits, to improve your website’s visibility on search engines.
+                                        We align content with your brand’s voice, create cohesive visuals, and schedule posts strategically to maintain a consistent and impactful presence.
                                     </div>
                                 </div>
                             </div>
@@ -138,14 +137,14 @@ $current_service = "SEO & SMM";
                             <h2 class="accordion-header" id="heading13">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
                                     <span class="icon-2"><i class="flaticon-arrow"></i></span>
-                                    <span class="title chy-heading-1">Why Are SEO & SMM Effective?</span>
+                                    <span class="title chy-heading-1">Why is Social Media Management important?</span>
                                     <span class="icon"><i class="far fa-plus"></i></span>
                                 </button>
                             </h2>
                             <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample_31">
                                 <div class="accordion-body">
                                     <div class="disc chy-para-1">
-                                        SEO and SMM drive organic traffic, enhance brand visibility, and foster audience engagement, creating a powerful digital presence that delivers results.
+                                        Effective management builds brand loyalty, increases engagement, and drives traffic, creating a strong digital presence that supports your business goals.
                                     </div>
                                 </div>
                             </div>
@@ -156,14 +155,14 @@ $current_service = "SEO & SMM";
                             <h2 class="accordion-header" id="heading16">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
                                     <span class="icon-2"><i class="flaticon-arrow"></i></span>
-                                    <span class="title chy-heading-1">How Do We Align Campaigns with Your Goals?</span>
+                                    <span class="title chy-heading-1">Do you provide ongoing support for social media?</span>
                                     <span class="icon"><i class="far fa-plus"></i></span>
                                 </button>
                             </h2>
                             <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionExample_31">
                                 <div class="accordion-body">
                                     <div class="disc chy-para-1">
-                                        We customize SEO and SMM strategies to align with your objectives, using data-driven insights to deliver measurable traffic and engagement growth.
+                                        Yes, we offer ongoing support, including content updates, community management, and performance optimization, to keep your social media channels thriving.
                                     </div>
                                 </div>
                             </div>

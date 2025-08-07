@@ -165,7 +165,7 @@ include 'header.php';
 
 
                     </ul>
-                    <a href="services-details.php" class="chy-pr-btn-1 mt-4 wow fadeInLeft">
+                    <a href="./social-media-strategy.php" class="chy-pr-btn-1 mt-4 wow fadeInLeft">
                         <span class="text">
                             Read More
                         </span>
@@ -275,7 +275,7 @@ include 'header.php';
 
 
                     </ul>
-                    <a href="services-details.php" class="chy-pr-btn-1 mt-4 wow fadeInLeft">
+                    <a href="./social-media-management.php" class="chy-pr-btn-1 mt-4 wow fadeInLeft">
                         <span class="text">
                             Read More
                         </span>
@@ -317,7 +317,7 @@ include 'header.php';
 
 
                     </ul>
-                    <a href="content-creation.php" class="chy-pr-btn-1 mt-4 wow fadeInLeft">
+                    <a href="./performance-analytics.php" class="chy-pr-btn-1 mt-4 wow fadeInLeft">
                         <span class="text">
                             Read More
                         </span>

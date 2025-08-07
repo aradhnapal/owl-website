@@ -1,0 +1,200 @@
+
+<?php
+include 'header.php';
+include 'services-list.php';
+$current_service = "PERFORMANCE ADS";
+?>
+
+<!-- breadcrumb-area-start -->
+<div class="breadcrumb-area bg-default has-breadcrumb-overlay" data-background="assets/img/breadcrumb/breadcrumb-img-1.jpg">
+    <div class="container h1-container">
+        <div class="row">
+            <div class="col-xxl-12">
+                <div class="breadcrumb-wrap text-center">
+                    <h2 class="breadcrumb-title chy-heading-1 chy-split-in-right chy-split-text">Our Services</h2>
+                    <div class="breadcrumb-list wow fadeInUp" data-wow-duration="2s">
+                        <a href="index.php">Home</a>
+                        <span>Performance Ads</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!-- breadcrumb-area-end -->
+
+<!-- Service Detail Content -->
+<div class="service-details-area pt-120 pb-70">
+    <div class="container chy-container-1">
+        <div class="row">
+            <!-- left-content -->
+            <div class="col-xxl-8 col-xl-8 col-lg-8">
+                <div class="service-details-content mb-50">
+                    <div class="service-details-main-img img-cover">
+                        <img src="assets/img/bg/performance-ads.webp" alt="Performance Ads Campaign">
+                    </div>
+
+                    <h2 class="chy-heading-1 service-details-title chy-split-in-right chy-split-text">Performance Ads</h2>
+
+                    <p class="chy-para-1 inner-page-disc">
+                        Our performance ads services deliver data-driven, results-oriented advertising campaigns designed to maximize your return on investment (ROI). We create targeted ads that drive conversions, increase brand visibility, and boost sales across platforms like Google Ads, Meta, LinkedIn, and more. By leveraging advanced analytics and strategic optimization, we ensure your ads reach the right audience at the right time with compelling messaging.
+                    </p>
+                    <p class="chy-para-1 inner-page-disc">
+                        From campaign strategy to ad creation and performance tracking, we handle every aspect to ensure your advertising budget is spent efficiently. Our team tailors each campaign to your business goals, whether it's lead generation, e-commerce sales, or brand awareness, delivering measurable results that drive growth.
+                    </p>
+
+                    <h2 class="chy-heading-1 chy-split-in-right chy-split-text service-details-subtitle">What We Provide</h2>
+
+                    <p class="chy-para-1 inner-page-disc">
+                        Our performance ads services offer comprehensive solutions, from strategy development to campaign execution. We create targeted, high-performing ads, optimize campaigns in real-time, and provide detailed analytics to ensure maximum ROI.
+                    </p>
+
+                    <div class="service-details-feature mb-30 mt-30">
+                        <div class="service-details-feature-item">
+                            <div class="heading-wrap">
+                                <div class="icon">
+                                    <i class="flaticon-mobile-development"></i>
+                                </div>
+                                <h4 class="chy-heading-1 title">Campaign Strategy</h4>
+                            </div>
+                            <p class="chy-para-1 text">We develop data-driven strategies tailored to your goals, targeting the right audience with the right message to maximize campaign effectiveness.</p>
+                        </div>
+                        <div class="service-details-feature-item">
+                            <div class="heading-wrap">
+                                <div class="icon">
+                                    <i class="flaticon-megaphone"></i>
+                                </div>
+                                <h4 class="title chy-heading-1">Ad Creation</h4>
+                            </div>
+                            <p class="chy-para-1 text">Our team designs compelling ad creatives, including visuals, copy, and calls-to-action, optimized for engagement and conversions.</p>
+                        </div>
+                        <div class="service-details-feature-item">
+                            <div class="heading-wrap">
+                                <div class="icon">
+                                    <i class="flaticon-web-design-1"></i>
+                                </div>
+                                <h4 class="title chy-heading-1">Real-Time Optimization</h4>
+                            </div>
+                            <p class="chy-para-1 text">We continuously monitor and optimize campaigns, adjusting bids, targeting, and creatives to improve performance and reduce costs.</p>
+                        </div>
+                        <div class="service-details-feature-item">
+                            <div class="heading-wrap">
+                                <div class="icon">
+                                    <i class="flaticon-web-design"></i>
+                                </div>
+                                <h4 class="title chy-heading-1">Performance Analytics</h4>
+                            </div>
+                            <p class="chy-para-1 text">We provide detailed reports on key metrics like clicks, conversions, and ROI, ensuring transparency and data-driven decision-making.</p>
+                        </div>
+                    </div>
+
+                    <h2 class="chy-heading-1 chy-split-in-right chy-split-text service-details-subtitle">The Challenge</h2>
+
+                    <p class="chy-para-1 inner-page-disc">
+                        Performance advertising requires precise targeting, compelling creatives, and ongoing optimization to achieve results in a competitive digital landscape. Challenges include managing ad spend efficiently, reaching the right audience, and adapting to changing platform algorithms. Our team addresses these challenges through strategic planning, advanced analytics, and continuous optimization, ensuring your campaigns deliver maximum impact and value.
+                    </p>
+
+                    <h2 class="chy-heading-1 chy-split-in-right chy-split-text service-details-subtitle">Why Choose Us</h2>
+
+                    <div class="accordion chy-sd-1-item wow fadeInUp" id="accordionExample_31">
+                        <!-- single-team -->
+                        <div class="accordion-item mb-15">
+                            <h2 class="accordion-header" id="heading17">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                    <span class="icon-2"><i class="flaticon-arrow"></i></span>
+                                    <span class="title chy-heading-1">What Makes Our Performance Ads Unique?</span>
+                                    <span class="icon"><i class="far fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapse17" class="accordion-collapse collapse show" aria-labelledby="heading17" data-bs-parent="#accordionExample_31">
+                                <div class="accordion-body">
+                                    <div class="disc chy-para-1">
+                                        Our performance ads services stand out due to our data-driven approach, compelling creatives, and relentless focus on optimizing for conversions and ROI.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single-team -->
+                        <div class="accordion-item mb-15">
+                            <h2 class="accordion-header" id="heading10">
+                                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapse10">
+                                    <span class="icon-2"><i class="flaticon-arrow"></i></span>
+                                    <span class="title chy-heading-1">How Do We Maximize Campaign ROI?</span>
+                                    <span class="icon"><i class="far fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample_31">
+                                <div class="accordion-body">
+                                    <div class="disc chy-para-1">
+                                        We use advanced targeting, real-time optimization, and performance analytics to ensure every ad dollar is spent efficiently, driving maximum conversions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single-team -->
+                        <div class="accordion-item mb-15">
+                            <h2 class="accordion-header" id="heading13">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                    <span class="icon-2"><i class="flaticon-arrow"></i></span>
+                                    <span class="title chy-heading-1">Why Are Performance Ads Effective?</span>
+                                    <span class="icon"><i class="far fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#accordionExample_31">
+                                <div class="accordion-body">
+                                    <div class="disc chy-para-1">
+                                        Performance ads drive measurable results by targeting specific audiences with compelling creatives, optimizing for conversions, and delivering high ROI.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- single-team -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading16">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                    <span class="icon-2"><i class="flaticon-arrow"></i></span>
+                                    <span class="title chy-heading-1">How Do We Tailor Ads to Your Goals?</span>
+                                    <span class="icon"><i class="far fa-plus"></i></span>
+                                </button>
+                            </h2>
+                            <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16" data-bs-parent="#accordionExample_31">
+                                <div class="accordion-body">
+                                    <div class="disc chy-para-1">
+                                        We customize campaigns to align with your specific objectives, from lead generation to sales, using targeted strategies and data-driven insights.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- sidebar -->
+            <div class="col-xxl-4 col-xl-4 col-lg-4">
+                <div class="blog-2-page-sidebar mb-50">
+                    <div class="sidebar-box mb-30 wow fadeInUp">
+                        <h4 class="sidebar-box-title chy-heading-1">Services Category</h4>
+                        <div class="sidebar-box-wrap">
+                            <ul class="sidebar-category">
+                                <?php foreach ($services as $name => $file): ?>
+                                    <?php if ($name !== $current_service): ?>
+                                        <li class="wow fadeInUp">
+                                            <a href="<?php echo $file; ?>">
+                                                <span class="text"><?php echo $name; ?></span>
+                                                <span class="icon-1"><i class="flaticon-next"></i></span>
+                                            </a>
+                                        </li>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php include 'footer.php'; ?>
+```

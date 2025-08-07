@@ -313,7 +313,7 @@ include 'header.php';
                             <i class="flaticon-seen"></i>
                             Campaign performance breakdown
                         </li>
-                       
+
 
 
                     </ul>
@@ -365,7 +365,7 @@ include 'header.php';
                     <ul class="projects-details-feature-list">
                         <li>
                             <i class="flaticon-seen"></i>
-                             Paid Ads (Meta, Google, YouTube)
+                            Paid Ads (Meta, Google, YouTube)
 
                         </li>
                         <li>
@@ -374,7 +374,7 @@ include 'header.php';
                         </li>
                         <li>
                             <i class="flaticon-seen"></i>
-                           Profile Revamp & Branding
+                            Profile Revamp & Branding
                         </li>
                         <li>
                             <i class="flaticon-seen"></i>
@@ -427,16 +427,16 @@ include 'header.php';
                             <!--<h3 class="chy-heading-1 price">₹10,000–₹15,000  /monthly</h3>-->
                         </div>
                         <h6 class="chy-heading-1 title">Starter</h6>
-                        <p class="chy-para-1 disc">Every pleasure is to be welcomed and every pain avoided. is to be
-                            welcomed and every</p>
+                        <p class="chy-para-1 disc">Perfect for small businesses—basic content, 2 platforms, monthly
+                            posts, and reliable support to build presence.</p>
                         <a href="starter.php" class="pc1-btn">get started</a>
-                        <p class="chy-heading-1 date">14-day free trial - No credit card Required</p>
+                        <!-- <p class="chy-heading-1 date">14-day free trial - No credit card Required</p> -->
                         <ul class="chy-price-card-1-item-list">
-                            <li><i class="flaticon-check"></i>  Basic content</li>
-                            <li><i class="flaticon-check"></i>  post management</li>
+                            <li><i class="flaticon-check"></i> Basic content</li>
+                            <li><i class="flaticon-check"></i> post management</li>
                             <!-- <li><i class="flaticon-check"></i> awosame consulting</li> -->
                         </ul>
-                        <img src="assets/img/price/p1-il-2.png" alt="" class="style-icon">
+                        <!-- <img src="assets/img/price/p1-il-2.png" alt="" class="style-icon"> -->
                     </div>
                 </div>
 
@@ -451,16 +451,16 @@ include 'header.php';
 
                         </div>
                         <h6 class="chy-heading-1 title">Growth</h6>
-                        <p class="chy-para-1 disc">Every pleasure is to be welcomed and every pain avoided. is to be
-                            welcomed and every</p>
+                        <p class="chy-para-1 disc">Designed for growing brands—more platforms, engaging content, short
+                            videos, analytics, and strategy to increase visibility.</p>
                         <a href="growth.php" class="pc1-btn">get started</a>
-                        <p class="chy-heading-1 date">30-day free trial - No credit card Required</p>
+                        <!-- <p class="chy-heading-1 date">30-day free trial - No credit card Required</p> -->
                         <ul class="chy-price-card-1-item-list">
                             <li><i class="flaticon-check"></i>Reels </li>
                             <li><i class="flaticon-check"></i> Strategy </li>
                             <li><i class="flaticon-check"></i> Reporting</li>
                         </ul>
-                        <img src="assets/img/price/p1-il-2.png" alt="" class="style-icon">
+                        <!-- <img src="assets/img/price/p1-il-2.png" alt="" class="style-icon"> -->
                     </div>
                 </div>
 
@@ -474,16 +474,16 @@ include 'header.php';
                             <!--<h3 class="chy-heading-1 price"> ₹30,000–₹35,000 /monthly</h3>-->
                         </div>
                         <h6 class="chy-heading-1 title">Pro+</h6>
-                        <p class="chy-para-1 disc">Every pleasure is to be welcomed and every pain avoided. is to be
-                            welcomed and every</p>
+                        <p class="chy-para-1 disc">Built for scaling brands—full management, ads, influencer support,
+                            expert strategy, and detailed performance tracking monthly.</p>
                         <a href="pro+.php" class="pc1-btn">get started</a>
-                        <p class="chy-heading-1 date">60-day free trial - No credit card Required</p>
+                        <!-- <p class="chy-heading-1 date">60-day free trial - No credit card Required</p> -->
                         <ul class="chy-price-card-1-item-list">
-                            <li><i class="flaticon-check"></i>  Full service</li>
-                            <li><i class="flaticon-check"></i>  Ads</li>
-                            <li><i class="flaticon-check"></i>  Influencer Management</li>
+                            <li><i class="flaticon-check"></i> Full service</li>
+                            <li><i class="flaticon-check"></i> Ads</li>
+                            <li><i class="flaticon-check"></i> Influencer Management</li>
                         </ul>
-                        <img src="assets/img/price/p1-il-2.png" alt="" class="style-icon">
+                        <!-- <img src="assets/img/price/p1-il-2.png" alt="" class="style-icon"> -->
                     </div>
                 </div>
 
@@ -627,9 +627,12 @@ include 'header.php';
                     <!-- left-content -->
                     <div class="col-lg-5">
                         <div class="chy-client-1-content chy-slideinright">
-                            <h3 class="chy-heading-1 title chy-split-in-right chy-split-text"> Our Trusted Flock</h3>
-                            <p class="chy-para-1 disc wow fadeInRight ">Every pleasure is to be welcomed and <br> every
-                                pain avoided.certain circumstances</p>
+
+                            <h3 class="chy-heading-1 title chy-split-in-right chy-split-text">Our Trusted Flock</h3>
+                            <p class="chy-para-1 disc wow fadeInRight ">We proudly partner with forward-thinking brands
+                                who value clarity, strategy and vision. Like the owl, they trust wisdom and insight to
+                                guide bold decisions and long-term success.</p>
+
                         </div>
                     </div>
 
@@ -637,24 +640,24 @@ include 'header.php';
                     <div class="col-lg-7">
                         <div class="chy-client-1-logo chy-slideinright">
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-1.png" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-1.png" alt="">
+                                <img class="logo-1" src="assets/img/client/logo-1.webp" alt="">
+                                <img class="logo-2" src="assets/img/client/logo-1.webp" alt="">
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-2.png" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-2.png" alt="">
+                                <img class="logo-1" src="assets/img/client/logo-2.webp" alt="">
+                                <img class="logo-2" src="assets/img/client/logo-2.webp" alt="">
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-3.png" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-3.png" alt="">
+                                <img class="logo-1" src="assets/img/client/logo-3.webp" alt="">
+                                <img class="logo-2" src="assets/img/client/logo-3.webp" alt="">
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-4.png" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-4.png" alt="">
+                                <img class="logo-1" src="assets/img/client/logo-4.webp" alt="">
+                                <img class="logo-2" src="assets/img/client/logo-4.webp" alt="">
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-5.png" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-5.png" alt="">
+                                <img class="logo-1" src="assets/img/client/logo-5.webp" alt="">
+                                <img class="logo-2" src="assets/img/client/logo-5.webp" alt="">
                             </div>
                             <div class="logo-item">
                                 <img class="logo-1" src="assets/img/client/logo-6.png" alt="">

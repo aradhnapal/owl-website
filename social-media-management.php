@@ -34,6 +34,13 @@ $current_service = "SOCIAL MEDIA MANAGEMENT";
                     </div>
 
                     <h2 class="chy-heading-1 service-details-title chy-split-in-right chy-split-text">Social Media Management</h2>
+                     <ul class="chy-service-list">
+                        <li>  Daily posting and scheduling</li>
+                        <li>Community engagement (DMs, comments)</li>
+                        <li>Hashtag research</li>
+                        <li>  Trend-jacking and real-time content</li>
+                      
+                    </ul>
 
                     <p class="chy-para-1 inner-page-disc">
                         Our Social Media Management services empower your brand to thrive in the digital landscape by creating, curating, and managing engaging content across platforms like Instagram, Facebook, LinkedIn, and Twitter. We focus on building a consistent online presence, fostering audience interaction, and driving brand loyalty through strategic content planning and community engagement. Our tailored approach ensures your social media channels align with your business goals, delivering measurable results in audience growth and engagement.

@@ -14215,24 +14215,58 @@ progress-page
 }
 
 
-.chy-footer-1-social-link li {
-  display: inline-block;
-  margin-right: 2px;
+.chy-footer-1-social-link {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+.chy-footer-1-social-link li {
+  margin-bottom: 10px; /* space between rows */
+  color: white;
+}
+
 .chy-footer-1-social-link li a {
+  display: flex;
+  align-items: center;
+  /* background: #fff; */
+  border-radius: 5px;
+  width: fit-content;
+  padding: 6px 12px;
+  color: var(--chy-h1-color);
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.chy-footer-1-social-link li a i {
   width: 42px;
   height: 42px;
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  background: #fff;
   color: var(--chy-h1-color);
+  margin-right: 10px;
+  font-size: 16px;
 }
-.chy-footer-1-social-link li a:hover {
-  color: #fff;
+.color{
+  color: white;
+
+}
+
+
+.chy-footer-1-social-link li a i:hover {
   background-color: #3f697b;
+  color: #fff;
 }
+
+/* .chy-footer-1-social-link li a:hover i {
+  background-color: transparent;
+  color: #fff;
+} */
+
+
 
 .chy-footer-1-bottom {
   display: flex;
@@ -14834,4 +14868,21 @@ progress-page
 .dropdown-menu .clearfix li a{
   font-size: 15px !important;
 
+}
+.chy-footer-1-menu li i {
+    margin-right: 8px;
+    color: #555; /* Change icon color */
+}
+.chy-service-list {
+  list-style-type: disc;       /* shows ● */
+  padding-left: 20px;          /* indent */
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.chy-service-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
 }

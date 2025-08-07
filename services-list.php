@@ -15,7 +15,7 @@ $services = [
     "UI / UX DESIGN" => "ui-ux-design.php",
     "PRODUCT DESIGN" => "product-design.php",
     "WEBSITE DEVELOPMENT" => "website-development.php",
-    "SOCIAL MEDIA STRATEGY" => "website-development.php",
+    "SOCIAL MEDIA STRATEGY" => "social-media-strategy.php",
     "SOCIAL MEDIA MANAGEMENT" => "social-media-management.php",
     "PERFORMANCE ANALYTICS" => "performance-analytics.php",
 ];

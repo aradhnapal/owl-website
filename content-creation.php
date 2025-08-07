@@ -35,6 +35,13 @@ $current_service = "CONTENT CREATION";
                     </div>
 
                     <h2 class="chy-heading-1 service-details-title chy-split-in-right chy-split-text">Content Creation</h2>
+                      <ul class="chy-service-list">
+                        <li> Reels, stories, posts & carousels</li>
+                        <li>Shoots (photos & videos)</li>
+                        <li>Caption copywriting & visual design</li>
+                        <li> Brand-consistent aesthetics</li>
+                      
+                    </ul>
 
                     <p class="chy-para-1 inner-page-disc">
                         Our content creation services craft compelling, high-quality content that captivates your audience and strengthens your brand’s voice. From blog posts and videos to infographics and social media content, we produce tailored materials that engage, inform, and convert. Our creative team combines storytelling with strategic insights to deliver content that resonates with your target audience and supports your marketing goals.

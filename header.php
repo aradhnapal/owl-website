@@ -20,13 +20,13 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-   
+
 
 
     <!-- gooogle font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -53,42 +53,50 @@
                                 <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>"
                                     href="index.php">Home</a>
                             </li>
+                             <li class="dropdown">
+                                <a class="<?php echo in_array(basename($_SERVER['PHP_SELF']), ['services-1.html', 'services-2.html', 'services-details.html', 'services-details-2.html']) ? 'active' : ''; ?>"
+                                    href="services.php">Services</a>
+                                <ul class="dropdown-menu clearfix">
+                                    <li><a href="branding.php" style="font-size: 15px;">BRANDING</a></li>
+                                    <li><a href="content-creation.php" style="font-size: 15px;">CONTENT CREATION</a>
+                                    </li>
+                                    <li><a href="360-digital-strategy.php" style="font-size: 15px;">360° DIGITAL
+                                            STRATEGY</a></li>
+                                    <li><a href="seo-smm.php" style="font-size: 15px;">SEO & SMM</a></li>
+                                    <li><a href="content-marketing.php" style="font-size: 15px;">CONTENT MARKETING</a>
+                                    </li>
+                                    <li><a href="lead-generation.php" style="font-size: 15px;">LEAD GENERATION</a></li>
+                                    <li><a href="performance-ads.php" style="font-size: 15px;">PERFORMANCE ADS</a></li>
+                                    <li><a href="influencer-marketing.php" style="font-size: 15px;">INFLUENCER
+                                            MARKETING</a></li>
+                                    <li><a href="video-shoot.php" style="font-size: 15px;">VIDEO SHOOT</a></li>
+                                    <li><a href="photoshoot.php" style="font-size: 15px;">PHOTOSHOOT</a></li>
+                                    <li><a href="infographic-reels.php" style="font-size: 15px;">INFOGRAPHIC REELS</a>
+                                    </li>
+                                    <li><a href="logo-design.php" style="font-size: 15px;">LOGO DESIGN</a></li>
+                                    <li><a href="ui-ux-design.php" style="font-size: 15px;">UI / UX DESIGN</a></li>
+                                    <li><a href="product-design.php" style="font-size: 15px;">PRODUCT DESIGN</a></li>
+                                    <li><a href="website-development.php" style="font-size: 15px;">WEBSITE
+                                            DEVELOPMENT</a></li>
+                                </ul>
+
+
+                            </li>
+                              <li>
+                                <a class="<?php echo in_array(basename($_SERVER['PHP_SELF']), ['team-1.html', 'team-2.html', 'team-details.html']) ? 'active' : ''; ?>"
+                                    href="team.php">Team</a>
+                            </li>
                             <li>
                                 <a class="<?php echo in_array(basename($_SERVER['PHP_SELF']), ['about.php', 'about.php', 'about.php']) ? 'active' : ''; ?>"
                                     href="about.php">About Us</a>
                             </li>
-                            <li class="dropdown">
-                                <a class="<?php echo in_array(basename($_SERVER['PHP_SELF']), ['services-1.html', 'services-2.html', 'services-details.html', 'services-details-2.html']) ? 'active' : ''; ?>"
-                                    href="services.php">Services</a>
-                                    <ul class="dropdown-menu clearfix">
-  <li><a href="branding.php" style="font-size: 15px;">BRANDING</a></li>
-  <li><a href="content-creation.php" style="font-size: 15px;">CONTENT CREATION</a></li>
-  <li><a href="360-digital-strategy.php" style="font-size: 15px;">360° DIGITAL STRATEGY</a></li>
-  <li><a href="seo-smm.php" style="font-size: 15px;">SEO & SMM</a></li>
-  <li><a href="content-marketing.php" style="font-size: 15px;">CONTENT MARKETING</a></li>
-  <li><a href="lead-generation.php" style="font-size: 15px;">LEAD GENERATION</a></li>
-  <li><a href="performance-ads.php" style="font-size: 15px;">PERFORMANCE ADS</a></li>
-  <li><a href="influencer-marketing.php" style="font-size: 15px;">INFLUENCER MARKETING</a></li>
-  <li><a href="video-shoot.php" style="font-size: 15px;">VIDEO SHOOT</a></li>
-  <li><a href="photoshoot.php" style="font-size: 15px;">PHOTOSHOOT</a></li>
-  <li><a href="infographic-reels.php" style="font-size: 15px;">INFOGRAPHIC REELS</a></li>
-  <li><a href="logo-design.php" style="font-size: 15px;">LOGO DESIGN</a></li>
-  <li><a href="ui-ux-design.php" style="font-size: 15px;">UI / UX DESIGN</a></li>
-  <li><a href="product-design.php" style="font-size: 15px;">PRODUCT DESIGN</a></li>
-  <li><a href="website-development.php" style="font-size: 15px;">WEBSITE DEVELOPMENT</a></li>
-</ul>
-
-
-                            </li>
+                           
 
                             <li>
                                 <a class="<?php echo in_array(basename($_SERVER['PHP_SELF']), ['blog-1.html', 'blog-2.html', 'blog-details.html']) ? 'active' : ''; ?>"
                                     href="blog.php">Blog</a>
                             </li>
-                            <li>
-                                <a class="<?php echo in_array(basename($_SERVER['PHP_SELF']), ['team-1.html', 'team-2.html', 'team-details.html']) ? 'active' : ''; ?>"
-                                    href="team.php">Team</a>
-                            </li>
+                          
                             <li>
                                 <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'active' : ''; ?>"
                                     href="contact.php">Contact Us</a>

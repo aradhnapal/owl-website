@@ -10,7 +10,7 @@
 							<h2 class="breadcrumb-title chy-heading-1 chy-split-in-right chy-split-text" >our blog</h2>
 							<div class="breadcrumb-list wow fadeInUp" data-wow-duration="2s">
 								<a href="index.php">Home</a>
-								<span>our blog</span>
+								<span>our blogs</span>
 							</div>
 						</div>
 					</div>

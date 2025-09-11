@@ -86,7 +86,7 @@
                                 <div class="icon">
                                     <img src="assets/img/services/s1-icon-2.png" alt="">
                                 </div>
-                                <h4 class="chy-heading-1 title">2. Content Creation</h4>
+                                <h4 class="chy-heading-1 title"> Content Creation</h4>
                                 <!-- <p class="chy-para-1 disc">Every pleasure is to be welcomed and every pain avoided.</p> -->
                             </div>
                             <div class="body">

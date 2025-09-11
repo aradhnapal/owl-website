@@ -4947,6 +4947,9 @@ header innter
   position: relative;
   z-index: 1;
   overflow: hidden;
+  border: 2px solid #fff;
+  min-height: 480px; /* Adjust as needed for your design */
+  box-sizing: border-box;
 }
 .chy-services-1-item::after {
   content: "";
@@ -4964,9 +4967,10 @@ header innter
 .chy-services-1-item .header {
   padding-top: 50px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #729cb0;
+  border-bottom: 1px solid #fff;
   padding-left: 55px;
   padding-right: 55px;
+  height: 240px !important;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .chy-services-1-item .header {
@@ -5110,10 +5114,10 @@ header innter
   opacity: 1;
 }
 .chy-services-1-item:hover .header {
-  border-color: #9845ED;
+  border-color: #ffffff;
 }
 .chy-services-1-item:hover .chy-services-1-item-list li i::after {
-  background: #FB3937;
+  background: #3f697b;
   opacity: 1;
 }
 .chy-services-1-item:hover .s1-btn {
@@ -6769,8 +6773,8 @@ header innter
 .chy-price-card-1-item .icon-wrap {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-right: 40px;
+  justify-content: center;
+  /* padding-right: 40px; */
   margin-bottom: 10px;
 }
 @media (max-width: 767px) {
@@ -6805,6 +6809,7 @@ header innter
   font-weight: 900;
   color: #0d161a;
   margin-bottom: 7px;
+  text-align: center;
   transition: 400ms ease-in-out;
 }
 .chy-price-card-1-item .disc {

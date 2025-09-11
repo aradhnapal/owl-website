@@ -19,11 +19,11 @@ include 'header.php';
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <h1 class="text-white mb-4"
-                        style="font-size: 3.5rem; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                        style="font-size: 4.5rem; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
                         Welcome to Owl Digitals
                     </h1>
-                    <p class="text-white mb-5" style="font-size: 1.2rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">
-                        We create digital experiences that inspire and engage
+                    <p class="text-white mb-5" style="font-size: 1.2rem; margin-top:10px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">
+                       
                     </p>
                     <a href="contact.php" class="chy-pr-btn-1"
                         style="background: #fff; color: #333; padding: 15px 30px; font-size: 1.1rem;">
@@ -87,7 +87,7 @@ include 'header.php';
                             <img src="assets/img/bg/about-circle.png" alt="">
                         </div>
                         <div class="chy-solutions-1-goals">
-                            <h5 class="chy-heading-1 title">goals</h5>
+                            <h5 class="chy-heading-1 title">Achievement</h5>
                             <div class="chy-solutions-1-goals-item">
                                 <div class="icon">
                                     <i class="flaticon-digital-campaign"></i>
@@ -550,7 +550,7 @@ include 'header.php';
                         <div class="swiper-slide">
                             <div class="chy-team-slider-1-item">
                                 <div class="main-img">
-                                    <img src="assets/img/team/t1-slider-img-1.png" alt="">
+                                    <img src="assets/img/bg/pawan.png" alt="">
                                 </div>
                                 <div class="content-wrap">
                                     <h4 class="chy-heading-1 title">a framework for scaling teams</h4>
@@ -559,8 +559,8 @@ include 'header.php';
                                         welcomed and every pain avoided. is to be welcomed
                                         every Every pleasure is to be welcomed</p>
                                     <div class="person">
-                                        <h5 class="chy-heading-1 name">logon d</h5>
-                                        <span class="chy-para-1 bio">Founder, Marketing agency</span>
+                                        <h5 class="chy-heading-1 name">Pawan Yadav</h5>
+                                        <span class="chy-para-1 bio">Founder & Cinematographer</span>
                                     </div>
                                 </div>
                             </div>
@@ -570,7 +570,7 @@ include 'header.php';
                         <div class="swiper-slide">
                             <div class="chy-team-slider-1-item">
                                 <div class="main-img">
-                                    <img src="assets/img/team/t1-slider-img-1.png" alt="">
+                                    <img src="assets/img/bg/pawan.png" alt="">
                                 </div>
                                 <div class="content-wrap">
                                     <h4 class="chy-heading-1 title">a framework for scaling teams</h4>
@@ -579,8 +579,8 @@ include 'header.php';
                                         welcomed and every pain avoided. is to be welcomed
                                         every Every pleasure is to be welcomed</p>
                                     <div class="person">
-                                        <h5 class="chy-heading-1 name">logon d</h5>
-                                        <span class="chy-para-1 bio">Founder, Marketing agency</span>
+                                        <h5 class="chy-heading-1 name">Pawan Yadav</h5>
+                                        <span class="chy-para-1 bio">Founder & Cinematographer</span>
                                     </div>
                                 </div>
                             </div>
@@ -590,7 +590,7 @@ include 'header.php';
                         <div class="swiper-slide">
                             <div class="chy-team-slider-1-item">
                                 <div class="main-img">
-                                    <img src="assets/img/team/t1-slider-img-1.png" alt="">
+                                    <img src="assets/img/bg/pawan.png" alt="">
                                 </div>
                                 <div class="content-wrap">
                                     <h4 class="chy-heading-1 title">a framework for scaling teams</h4>
@@ -599,8 +599,8 @@ include 'header.php';
                                         welcomed and every pain avoided. is to be welcomed
                                         every Every pleasure is to be welcomed</p>
                                     <div class="person">
-                                        <h5 class="chy-heading-1 name">logon d</h5>
-                                        <span class="chy-para-1 bio">Founder, Marketing agency</span>
+                                        <h5 class="chy-heading-1 name">Pawan Yadav</h5>
+                                        <span class="chy-para-1 bio">Founder & Cinematographer</span>
                                     </div>
                                 </div>
                             </div>

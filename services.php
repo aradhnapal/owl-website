@@ -74,7 +74,7 @@
                                     <li><i class="flaticon-straight-right-arrow"></i> Platform-wise content plan</li>
                                     <li><i class="flaticon-straight-right-arrow"></i> Posting calendar and trends research</li>
                                 </ul>
-                                <a aria-label="links" href="services-details.php" class="s1-btn">
+                                <a aria-label="links" href="social-media-strategy.php" class="s1-btn">
                                     <i class="flaticon-right-up"></i>
                                 </a>
                             </div>
@@ -96,7 +96,7 @@
                                     <li><i class="flaticon-straight-right-arrow"></i> Caption copywriting & visual design </li>
                                     <li><i class="flaticon-straight-right-arrow"></i> Brand-consistent aesthetics</li>
                                 </ul>
-                                <a aria-label="links" href="services-details.php" class="s1-btn">
+                                <a aria-label="links" href="content-creation.php" class="s1-btn">
                                     <i class="flaticon-right-up"></i>
                                 </a>
                             </div>
@@ -118,7 +118,7 @@
                                     <li><i class="flaticon-straight-right-arrow"></i> Hashtag research</li>
                                     <li><i class="flaticon-straight-right-arrow"></i>Trend-jacking and real-time content</li>
                                 </ul>
-                                <a aria-label="links" href="services-details.php" class="s1-btn">
+                                <a aria-label="links" href="social-media-management.php" class="s1-btn">
                                     <i class="flaticon-right-up"></i>
                                 </a>
                             </div>
@@ -141,14 +141,34 @@
                                     <li><i class="flaticon-straight-right-arrow"></i>Growth insights & optimization tips</li>
                                     <li><i class="flaticon-straight-right-arrow"></i> Campaign performance breakdown</li>
                                 </ul>
-                                <a aria-label="links" href="services-details.php" class="s1-btn">
+                                <a aria-label="links" href="performance-analytics.php" class="s1-btn">
                                     <i class="flaticon-right-up"></i>
                                 </a>
                             </div>
                         </div>
 
+                         <!-- single-item -->
+                        <div class="chy-services-1-item ">
+                            <div class="header">
+                                <div class="icon">
+                                    <img src="assets/img/services/s1-icon-6.png" alt="">
+                                </div>
+                                <h4 class="chy-heading-1 title">Website Development</h4>
+                                <!-- <p class="chy-para-1 disc">Every pleasure is to be welcomed and every pain avoided.</p> -->
+                            </div>
+                            <div class="body">
+                                <ul class="chy-services-1-item-list">
+                                    <li><i class="flaticon-straight-right-arrow"></i> SEO Copywriting</li>
+                                    <li><i class="flaticon-straight-right-arrow"></i> Plans & Pricing</li>
+                                    <li><i class="flaticon-straight-right-arrow"></i> Risk Management</li>
+                                </ul>
+                                <a aria-label="links" href="website-development.php" class="s1-btn">
+                                    <i class="flaticon-right-up"></i>
+                                </a>
+                            </div>
+                        </div>
                         <!-- single-item -->
-                        <div class="chy-services-1-item">
+                        <div class="chy-services-1-item asslideupcta">
                             <div class="header">
                                 <div class="icon">
                                     <img src="assets/img/services/s1-icon-5.png" alt="">
@@ -169,26 +189,7 @@
                             </div>
                         </div>
 
-                        <!-- single-item -->
-                        <div class="chy-services-1-item asslideupcta">
-                            <div class="header">
-                                <div class="icon">
-                                    <img src="assets/img/services/s1-icon-6.png" alt="">
-                                </div>
-                                <h4 class="chy-heading-1 title">Website Development</h4>
-                                <!-- <p class="chy-para-1 disc">Every pleasure is to be welcomed and every pain avoided.</p> -->
-                            </div>
-                            <div class="body">
-                                <ul class="chy-services-1-item-list">
-                                    <li><i class="flaticon-straight-right-arrow"></i> SEO Copywriting</li>
-                                    <li><i class="flaticon-straight-right-arrow"></i> Plans & Pricing</li>
-                                    <li><i class="flaticon-straight-right-arrow"></i> Risk Management</li>
-                                </ul>
-                                <a aria-label="links" href="services-details.php" class="s1-btn">
-                                    <i class="flaticon-right-up"></i>
-                                </a>
-                            </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

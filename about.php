@@ -71,7 +71,7 @@
                             <img src="assets/img/bg/about-circle.png" alt="">
                         </div>
                         <div class="chy-solutions-1-goals">
-                            <h5 class="chy-heading-1 title">goals</h5>
+                            <h5 class="chy-heading-1 title">Achievement</h5>
                             <div class="chy-solutions-1-goals-item">
                                 <div class="icon">
                                     <i class="flaticon-digital-campaign"></i>

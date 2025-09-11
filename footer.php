@@ -98,7 +98,7 @@
                         </li>
                       
                         <li>
-                            <a href="https://instagram.com" target="_blank">
+                            <a href="https://www.instagram.com/owldigitals.co" target="_blank">
                                 <i class="fab fa-instagram"></i> <span class="color">Instagram</span>
                             </a>
                         </li>

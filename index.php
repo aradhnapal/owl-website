@@ -18,10 +18,11 @@ include 'header.php';
         <div class="container chy-container-1 text-center">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white mb-4"
-                        style="font-size: 4.5rem; font-weight: 700; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
-                        Welcome to Owl Digitals
-                    </h1>
+                    <h1 class="text-white mb-4 display-4 display-md-3 display-lg-1 fw-bold"
+    style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+  Welcome to Owl Digitals
+</h1>
+
                     <p class="text-white mb-5" style="font-size: 1.2rem; margin-top:10px; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">
                        
                     </p>

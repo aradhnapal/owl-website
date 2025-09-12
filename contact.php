@@ -34,51 +34,36 @@
             <div class="col-lg-7">
                 <div class="contact-form-2-wrap">
                     <h6 class="title chy-heading-1">Contact Us</h6>
-                    <form class="contact-form-2" action="#">
-                        <div class="item 1">
-                            <label for="name">First Name<span>*</span></label>
-                            <input id="name" type="text" placeholder="first name">
-                        </div>
+                   <form id="contactForm" class="contact-form-2" action="sendMail.php" method="post">
+    <div class="item 1">
+        <label for="name">First Name<span>*</span></label>
+        <input name="name" id="name" type="text" placeholder="first name" required>
+    </div>
 
-                        <div class="item2">
-                            <label for="phone">phone number<span>*</span></label>
-                            <input id="phone" type="tel" placeholder="phone number">
-                        </div>
+    <div class="item2">
+        <label for="phone">Phone Number<span>*</span></label>
+        <input name="phone" id="phone" type="tel" placeholder="phone number" required>
+    </div>
 
-                        <div class="item3">
-                            <label for="email">email address<span>*</span></label>
-                            <input id="email" type="email" placeholder="email address">
-                        </div>
+    <div class="item3">
+        <label for="email">Email Address<span>*</span></label>
+        <input name="email" id="email" type="email" placeholder="email address" required>
+    </div>
 
-                        <!-- <div class="item4">
-                                    <label for="name">select service type<span>*</span></label>
-                                    <div class="nice-select option-selector " tabindex="0">
-                                        <span class="current">Select Service Type</span>
-                                        <ul class="list">
-                                            <li data-value="language" class="option focus">option 1</li>
-                                            <li data-value="bangla" class="option selected">option 2</li>
-                                            <li data-value="english" class="option">option 3</li>
-                                        </ul>
-                                    </div>
-                                </div> -->
+    <div class="item5">
+        <label for="message">Message<span>*</span></label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message" required></textarea>
+    </div>
 
-                        <div class="item5">
-                            <label for="name">message<span>*</span></label>
-                            <textarea cols="30" rows="10" placeholder="Type your message"></textarea>
-                        </div>
+    <div class="btn-wrap item6">
+        <button type="submit" aria-label="contact form" class="chy-pr-btn-1">
+            <span class="text">Send Message</span>
+            <span class="icon"><i class="fa-solid fa-right-long"></i></span>
+        </button>
+    </div>
+</form>
 
-                        <div class="btn-wrap item6">
-                            <button type="button" aria-label="contact form" class="chy-pr-btn-1">
-                                <span class="text">
-                                    send message
-                                </span>
-                                <span class="icon">
-                                    <i class="fa-solid fa-right-long"></i>
-                                </span>
-                            </button>
-                        </div>
 
-                    </form>
                 </div>
 
             </div>
@@ -130,22 +115,24 @@
                                 </a>
                             </li>
                             <li>
-                                <a aria-label="WhatsApp" href="https://api.whatsapp.com/send?phone=8532855455&text=Hi,%20I%20need%20some%20information" target="_blank">
+                                <a aria-label="WhatsApp"
+                                    href="https://api.whatsapp.com/send?phone=8532855455&text=Hi,%20I%20need%20some%20information"
+                                    target="_blank">
                                     <i class="fab fa-whatsapp"></i>
                                 </a>
                             </li>
 
-                              <li>
-                            <a href="https://youtube.com" target="_blank">
-                                <i class="fab fa-youtube"></i> 
-                            </a>
-                        </li>
-                           
-                             <li>
-                            <a href="https://www.instagram.com/owldigitals.co" target="_blank">
-                                <i class="fab fa-instagram"></i> 
-                            </a>
-                        </li>
+                            <li>
+                                <a href="https://youtube.com" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.instagram.com/owldigitals.co" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
 
                         </ul>
                     </div>
@@ -155,6 +142,55 @@
 
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    let formData = new FormData(this);
+
+    // Show loading alert
+    Swal.fire({
+        title: 'Sending...',
+        text: 'Please wait while we send your enquiry.',
+        allowOutsideClick: false,
+        didOpen: () => {
+            Swal.showLoading();
+        }
+    });
+
+    fetch("sendMail.php", {
+        method: "POST",
+        body: formData
+    })
+    .then(response => response.text())
+    .then(result => {
+        if(result.includes("success")) {
+            Swal.fire({
+                icon: 'success',
+                title: 'Message Sent!',
+                text: 'Thank you for contacting us. We will reply soon.'
+            });
+            document.getElementById("contactForm").reset();
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: result
+            });
+        }
+    })
+    .catch(error => {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error!',
+            text: 'Something went wrong. Please try again later.'
+        });
+    });
+});
+</script>
+
 <!-- contact-page-end -->
 
 <?php include 'footer.php'; ?>

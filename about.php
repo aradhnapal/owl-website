@@ -64,6 +64,7 @@
                     </div>
                 </div>
 
+                
                 <!-- right-img -->
                 <div class="col-xl-7 col-lg-6">
                     <div class="chy-solutions-1-img ">

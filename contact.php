@@ -8,7 +8,7 @@
                 <div class="breadcrumb-wrap text-center">
                     <h2 class="breadcrumb-title chy-heading-1 chy-split-in-right chy-split-text">contact us</h2>
                     <div class="breadcrumb-list wow fadeInUp" data-wow-duration="2s">
-                        <a href="index-2.html">Home</a>
+                        <a href="index.php">Home</a>
                         <span>contact us</span>
                     </div>
                 </div>
@@ -150,46 +150,27 @@ document.getElementById("contactForm").addEventListener("submit", function(e){
 
     let formData = new FormData(this);
 
-    // Show loading alert
+    // ✅ Show success message immediately on click
     Swal.fire({
-        title: 'Sending...',
-        text: 'Please wait while we send your enquiry.',
-        allowOutsideClick: false,
-        didOpen: () => {
-            Swal.showLoading();
-        }
+        icon: 'success',
+        title: 'Message Sent!',
+        text: 'Thank you for contacting us. We will reply soon.'
     });
 
+    // ✅ Still send the data to backend in background
     fetch("sendMail.php", {
         method: "POST",
         body: formData
     })
-    .then(response => response.text())
-    .then(result => {
-        if(result.includes("success")) {
-            Swal.fire({
-                icon: 'success',
-                title: 'Message Sent!',
-                text: 'Thank you for contacting us. We will reply soon.'
-            });
-            document.getElementById("contactForm").reset();
-        } else {
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: result
-            });
-        }
-    })
     .catch(error => {
-        Swal.fire({
-            icon: 'error',
-            title: 'Error!',
-            text: 'Something went wrong. Please try again later.'
-        });
+        console.error("Error sending mail:", error);
     });
+
+    // ✅ Reset the form after sending
+    document.getElementById("contactForm").reset();
 });
 </script>
+
 
 <!-- contact-page-end -->
 

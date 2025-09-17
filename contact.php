@@ -34,34 +34,38 @@
             <div class="col-lg-7">
                 <div class="contact-form-2-wrap">
                     <h6 class="title chy-heading-1">Contact Us</h6>
-                   <form id="contactForm" class="contact-form-2" action="sendMail.php" method="post">
-    <div class="item 1">
-        <label for="name">First Name<span>*</span></label>
-        <input name="name" id="name" type="text" placeholder="first name" required>
-    </div>
+       <form id="contactForm" class="contact-form-2" action="sendMail.php" method="post">
+  <input type="hidden" name="form_type" value="contact">
 
-    <div class="item2">
-        <label for="phone">Phone Number<span>*</span></label>
-        <input name="phone" id="phone" type="tel" placeholder="phone number" required>
-    </div>
+  <div class="item 1">
+    <label for="name">First Name<span>*</span></label>
+    <input name="name" id="name" type="text" placeholder="first name" required>
+  </div>
 
-    <div class="item3">
-        <label for="email">Email Address<span>*</span></label>
-        <input name="email" id="email" type="email" placeholder="email address" required>
-    </div>
+  <div class="item2">
+    <label for="phone">Phone Number<span>*</span></label>
+    <input name="phone" id="phone" type="tel" placeholder="phone number" required>
+  </div>
 
-    <div class="item5">
-        <label for="message">Message<span>*</span></label>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message" required></textarea>
-    </div>
+  <div class="item3">
+    <label for="email">Email Address<span>*</span></label>
+    <input name="email" id="email" type="email" placeholder="email address" required>
+  </div>
 
-    <div class="btn-wrap item6">
-        <button type="submit" aria-label="contact form" class="chy-pr-btn-1">
-            <span class="text">Send Message</span>
-            <span class="icon"><i class="fa-solid fa-right-long"></i></span>
-        </button>
-    </div>
+  <div class="item5">
+    <label for="message">Message<span>*</span></label>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message" required></textarea>
+  </div>
+
+  <div class="btn-wrap item6">
+    <button type="submit" aria-label="contact form" class="chy-pr-btn-1">
+      <span class="text">Send Message</span>
+      <span class="icon"><i class="fa-solid fa-right-long"></i></span>
+    </button>
+  </div>
 </form>
+
+
 
 
                 </div>
@@ -145,31 +149,42 @@
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-document.getElementById("contactForm").addEventListener("submit", function(e){
+function handleFormSubmit(formSelector) {
+  const form = document.querySelector(formSelector);
+  if (!form) return;
+
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
+    const formData = new FormData(form);
 
-    let formData = new FormData(this);
-
-    // ✅ Show success message immediately on click
+    // show success immediately on click
     Swal.fire({
-        icon: 'success',
-        title: 'Message Sent!',
-        text: 'Thank you for contacting us. We will reply soon.'
+      icon: 'success',
+      title: 'Thank you!',
+      text: 'Your form has been submitted successfully.'
     });
 
-    // ✅ Still send the data to backend in background
-    fetch("sendMail.php", {
-        method: "POST",
-        body: formData
-    })
-    .catch(error => {
-        console.error("Error sending mail:", error);
+    // send form in background
+    fetch(form.action, {
+      method: 'POST',
+      body: formData
+    }).catch(() => {
+      // if you want an error alert if send fails
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong sending your form!'
+      });
     });
 
-    // ✅ Reset the form after sending
-    document.getElementById("contactForm").reset();
-});
+    form.reset(); // clear fields right away
+  });
+}
+
+handleFormSubmit('#contactForm');
+handleFormSubmit('#careerForm');
 </script>
+
 
 
 <!-- contact-page-end -->

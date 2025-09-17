@@ -86,6 +86,9 @@
                     <li>
                         <a href="contact.php">contact us</a>
                     </li>
+                     <li>
+                        <a href="career.php">Career</a>
+                    </li>
                 </ul>
             </div>
              <div class="footer-1-widget">

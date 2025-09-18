@@ -641,28 +641,28 @@ include 'header.php';
                     <div class="col-lg-7">
                         <div class="chy-client-1-logo chy-slideinright">
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-1.webp" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-1.webp" alt="">
+                                <img class="logo-1" src="assets/img/client/3.png" alt="">
+                                <!-- <img class="logo-2" src="assets/img/client/3.png" alt=""> -->
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-2.webp" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-2.webp" alt="">
+                                <img class="logo-1" src="assets/img/client/6.png" alt="">
+                                <!-- <img class="logo-2" src="assets/img/client/logo-2.webp" alt=""> -->
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-3.webp" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-3.webp" alt="">
+                                <img class="logo-1" src="assets/img/client/5.png" alt="">
+                                <!-- <img class="logo-2" src="assets/img/client/logo-3.webp" alt=""> -->
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-4.webp" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-4.webp" alt="">
+                                <img class="logo-1" src="assets/img/client/4.png" alt="">
+                                <!-- <img class="logo-2" src="assets/img/client/logo-4.webp" alt=""> -->
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-5.webp" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-5.webp" alt="">
+                                <img class="logo-1" src="assets/img/client/9.png" alt="">
+                                <!-- <img class="logo-2" src="assets/img/client/logo-5.webp" alt=""> -->
                             </div>
                             <div class="logo-item">
-                                <img class="logo-1" src="assets/img/client/logo-6.png" alt="">
-                                <img class="logo-2" src="assets/img/client/logo-6.png" alt="">
+                                <img class="logo-1" src="assets/img/client/7.png" alt="">
+                                <!-- <img class="logo-2" src="assets/img/client/3.png" alt=""> -->
                             </div>
                         </div>
                     </div>
